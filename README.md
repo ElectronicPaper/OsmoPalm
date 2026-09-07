@@ -4,6 +4,42 @@ A standalone, one-thumb M5Stack Core2 controller for DJI Osmo Pocket gimbals.
 BLE pairing, camera Wi-Fi, control and telemetry run on the Core2 itself: no phone,
 computer or USB host is required during standalone operation.
 
+## Download the preview
+
+[**v0.1.0-preview.1 release and firmware downloads**](https://github.com/ElectronicPaper/OsmoPalm/releases/tag/v0.1.0-preview.1)
+
+This is a prerelease, not stable v1.0. Read the [release notes](docs/releases/v0.1.0-preview.1.md)
+and [flashing guide](docs/FLASHING.md) before installing. The firmware still identifies itself
+as `7.9.1-return-icon`; the new release label does not imply a rewritten or newly camera-qualified build.
+
+## Camera compatibility
+
+| Camera | Status |
+|---|---|
+| Osmo Pocket 4 Pro (4P) | Development-tested: standalone connection, telemetry and controls have been exercised. Not every feature or camera firmware is certified. |
+| Osmo Pocket 4 | Potentially compatible. **We have not tested it yet.** |
+| Osmo Pocket 3 | Potentially compatible. **We have not tested it yet.** |
+
+Pocket 4/3 compatibility is an inference from the shared protocol/discovery paths, not a
+guarantee. See the release notes for evidence and limitations.
+Core2 uses 2.4 GHz Wi-Fi; a camera AP available only on 5 GHz cannot be joined.
+
+## How it works
+
+![One-thumb HAND control beside a tripod-mounted camera](docs/images/hand-control-illustration.png)
+
+**HAND:** hold the central pad and move the controller to guide the gimbal. Release to end
+manual control; release easing follows your settings, while STOP overrides it immediately.
+
+![One-thumb JOG control beside a tripod-mounted camera](docs/images/jog-control-illustration.png)
+
+**JOG:** drag within the central square to control direction and speed. Tilt/Pan constraints
+and their settings are beside the pad. Standalone operation needs no phone or computer.
+
+*AI-generated usage illustrations, not test photos or exact UI/hardware reproductions.
+They do not prove successful operation or camera compatibility.*
+[Image provenance and prompts](docs/images/README.md).
+
 ## Included
 
 - 320x240 HAND and JOG controls with square touch pads, tilt/pan locks and per-axis easing.
