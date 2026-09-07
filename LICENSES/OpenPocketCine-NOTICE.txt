@@ -1,0 +1,23 @@
+OpenPocketCine
+Copyright 2026 Erik Sutton and OpenPocketCine contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+Third-party software distributed with this product is listed in THIRD-PARTY-NOTICES.md.
+The portable .cube parser (`CubeLUT`) is adapted from OpenZCine (Apache 2.0).
+
+Bundled UI typefaces (SIL Open Font License 1.1; copies in
+`ios/OpenPocketCine/Resources/Fonts/`):
+- Sora, Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)
+- IBM Plex Sans, Copyright 2017 IBM Corp. with Reserved Font Name "Plex"
+
+Bundled HUD icons from Lucide (ISC; Feather-derived glyphs also MIT; copies in
+ios/OpenPocketCine/Resources/Icons/lucide/ and
+Apps/Android/app/src/main/assets/icons/lucide/):
+- Lucide, Copyright 2026 Lucide Icons and Contributors
+  (https://github.com/lucide-icons/lucide)
+
+This project is not affiliated with or endorsed by SZ DJI Technology Co., Ltd.
+"DJI", "Osmo", "Osmo Pocket", and "Mimo" are trademarks of SZ DJI Technology Co., Ltd.,
+used for identification only.
+No DJI SDK or proprietary DJI documentation is included in, distributed with, or required
+by this project.

@@ -1,0 +1,133 @@
+{
+  "revision": 1,
+  "service_uuid": "0000fff0-0000-1000-8000-00805f9b34fb",
+  "notify_uuid": "0000fff4-0000-1000-8000-00805f9b34fb",
+  "write_uuid": "0000fff5-0000-1000-8000-00805f9b34fb",
+  "app_identifier": "284ae5b8d76b3375a04a6417ad71bea3",
+  "pairing_pin": "osmo",
+  "camera_host": "192.168.2.1",
+  "tcp_port": 7001,
+  "udp_port": 9004,
+  "handshake": "000064006400c005140000640000019001c005140000640014006400c00514000064000101040102",
+  "subscription_keys": [
+    "cam_status",
+    "cam_storage",
+    "cam_expo_param",
+    "cam_video_param_v2",
+    "cam_record_time"
+  ],
+  "first_sub_id": 27103,
+  "link_silent_s": 2,
+  "action_templates": {
+    "record_%s": [
+      "record_start",
+      "record_stop"
+    ],
+    "limitleds_%d": [
+      "limitleds_0",
+      "limitleds_1"
+    ],
+    "beacon_%d": [
+      "beacon_0",
+      "beacon_1"
+    ],
+    "invert_tilt_%d": [
+      "invert_tilt_0",
+      "invert_tilt_1"
+    ],
+    "invert_pan_%d": [
+      "invert_pan_0",
+      "invert_pan_1"
+    ],
+    "speed_%s": [
+      "speed_SLOW",
+      "speed_NORMAL",
+      "speed_FAST"
+    ],
+    "smooth_%s": [
+      "smooth_CRISP",
+      "smooth_FLUID",
+      "smooth_GLIDE"
+    ],
+    "jog_speed_%s": [
+      "jog_speed_SLOW",
+      "jog_speed_NORMAL",
+      "jog_speed_FAST"
+    ],
+    "jog_smooth_%s": [
+      "jog_smooth_CRISP",
+      "jog_smooth_FLUID",
+      "jog_smooth_GLIDE"
+    ],
+    "template_%s": [
+      "template_follow",
+      "template_rate"
+    ],
+    "tilt_response_%s": [
+      "tilt_response_FINE",
+      "tilt_response_BALANCED",
+      "tilt_response_DIRECT"
+    ],
+    "pan_response_%s": [
+      "pan_response_FINE",
+      "pan_response_BALANCED",
+      "pan_response_DIRECT"
+    ],
+    "tilt_stability_%s": [
+      "tilt_stability_QUIET",
+      "tilt_stability_BALANCED",
+      "tilt_stability_RESPONSIVE"
+    ],
+    "pan_stability_%s": [
+      "pan_stability_QUIET",
+      "pan_stability_BALANCED",
+      "pan_stability_RESPONSIVE"
+    ]
+  },
+  "emitted_actions": [
+    "abort",
+    "beacon_0",
+    "beacon_1",
+    "feel_defaults",
+    "go",
+    "invert_pan_0",
+    "invert_pan_1",
+    "invert_tilt_0",
+    "invert_tilt_1",
+    "jog_smooth_CRISP",
+    "jog_smooth_FLUID",
+    "jog_smooth_GLIDE",
+    "jog_speed_FAST",
+    "jog_speed_NORMAL",
+    "jog_speed_SLOW",
+    "limitleds_0",
+    "limitleds_1",
+    "pan_lock",
+    "pan_response_BALANCED",
+    "pan_response_DIRECT",
+    "pan_response_FINE",
+    "pan_stability_BALANCED",
+    "pan_stability_QUIET",
+    "pan_stability_RESPONSIVE",
+    "recenter",
+    "reconnect",
+    "record_start",
+    "record_stop",
+    "smooth_CRISP",
+    "smooth_FLUID",
+    "smooth_GLIDE",
+    "speed_FAST",
+    "speed_NORMAL",
+    "speed_SLOW",
+    "template_follow",
+    "template_rate",
+    "tilt_lock",
+    "tilt_response_BALANCED",
+    "tilt_response_DIRECT",
+    "tilt_response_FINE",
+    "tilt_stability_BALANCED",
+    "tilt_stability_QUIET",
+    "tilt_stability_RESPONSIVE",
+    "tl_stop"
+  ]
+}
