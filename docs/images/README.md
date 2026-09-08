@@ -11,7 +11,27 @@ No illustration is evidence of camera compatibility, range, image quality or con
 Original outputs retain their provenance metadata; no pixel editing was performed outside
 the image-generation tool.
 
-## Final prompts
+## Pocket 4P correction (2026-09-08)
+
+Both cameras were replaced using the built-in image-generation edit tool with
+[DJI's official Pocket 4P product reference](https://store.dji.com/jp/product/osmo-pocket-4p?set_region=JP&vid=241282).
+The product-only reference from In the Box shows the dual-lens head, gimbal arm,
+handle, joystick and red-ring record button. These remain AI composites, not real
+photographs. The historical single-lens instructions below are superseded.
+
+Final correction prompt for both images:
+
+```text
+Use case: precise-object-edit.
+Image 1 is the edit target: an OsmoPalm Core2 usage illustration. Image 2 is the authoritative official DJI Osmo Pocket 4P product identity reference.
+Replace ONLY the entire generic camera in image 1 with the actual black DJI Osmo Pocket 4P from image 2, mounted on the existing tabletop mini tripod. Match its exact recognizable physical design: two lenses side by side horizontally in a wide rounded rectangular head, smaller left lens marked 3X and larger right lens marked 1 INCH, correct surrounding three-axis gimbal arm, narrow handle, rotatable screen, textured joystick on left and red-ring record button on right below screen. Do not use a single-lens Pocket 3/4 camera. Match perspective, real-world scale, sunlight and contact shadows to the target scene.
+Preserve everything else in image 1: Core2 controller silhouette, yellow trim, screen UI and all labels, hand anatomy and position, table, background, crop, composition and tripod. Preserve the exact lower-right caption "AI-generated usage illustration". Photorealistic illustrative composite; no new props or cables. Output same landscape framing.
+```
+
+Additional JOG constraint: preserve the camera's landscape-rotated screen while
+using the official 4P handle and dual-lens head.
+
+## Historical generation prompts
 
 ### HAND base
 
